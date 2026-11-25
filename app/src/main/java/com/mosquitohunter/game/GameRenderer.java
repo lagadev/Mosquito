@@ -20,7 +20,7 @@ public class GameRenderer {
     private static final int WIN_STARS = 18;
     private static final int DUST = 26;
 
-    private final Paint p = new Paint(Paint.ANTI_ALIAS);
+    private final Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final RectF bed = new RectF();
     private final RectF pillow = new RectF();
     private final RectF blanket = new RectF();

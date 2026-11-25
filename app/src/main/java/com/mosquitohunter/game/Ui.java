@@ -25,9 +25,9 @@ public final class Ui {
     public static final Typeface BOLD = Typeface.create("sans-serif-black", Typeface.NORMAL);
     public static final Typeface REG = Typeface.create("sans-serif", Typeface.NORMAL);
 
-    private static final Paint FILL = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint LINE = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint TEXT = new Paint(Paint.ANTI_ALIAS);
+    private static final Paint FILL = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint LINE = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint TEXT = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     private Ui() {
     }

@@ -35,7 +35,7 @@ public class GameThread extends Thread {
                 if (canvas != null) {
                     synchronized (view.getLock()) {
                         view.update(dt);
-                        view.draw(canvas);
+                        view.renderFrame(canvas);
                     }
                 }
             } finally {

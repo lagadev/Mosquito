@@ -7,8 +7,8 @@ import android.graphics.RectF;
 /** The fictional mosquito-hunter turret at the bottom of the screen. */
 public class Player {
 
-    private static final Paint BASE = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint GLOW = new Paint(Paint.ANTI_ALIAS);
+    private static final Paint BASE = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint GLOW = new Paint(Paint.ANTI_ALIAS_FLAG);
     private static final RectF RECT = new RectF();
 
     public float x, y, recoil, glow, flash;

@@ -16,7 +16,7 @@ public class MenuRenderer {
             "Golden mosquitoes are worth 50 points. Giant mosquitoes take two hits. Tiny ones are quick and worth 25."
     };
 
-    private final Paint p = new Paint(Paint.ANTI_ALIAS);
+    private final Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final RectF box = new RectF();
 
     public void drawScreen(Canvas c, GameView.Screen screen, float w, float h, float time,

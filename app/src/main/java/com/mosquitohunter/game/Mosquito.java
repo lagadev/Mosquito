@@ -33,10 +33,10 @@ public class Mosquito {
         }
     }
 
-    private static final Paint BODY = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint WING = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint DARK = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint GLOW = new Paint(Paint.ANTI_ALIAS);
+    private static final Paint BODY = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint WING = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint DARK = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint GLOW = new Paint(Paint.ANTI_ALIAS_FLAG);
     private static final RectF OVAL = new RectF();
 
     public Type type = Type.NORMAL;

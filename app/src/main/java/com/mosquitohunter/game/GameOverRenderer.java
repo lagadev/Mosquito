@@ -7,7 +7,7 @@ import android.graphics.RectF;
 /** Animated game-over panel: slides in with an overshoot, then stats fade in. */
 public class GameOverRenderer {
 
-    private final Paint p = new Paint(Paint.ANTI_ALIAS);
+    private final Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
     private final RectF box = new RectF();
 
     public void draw(Canvas c, float w, float h, GameManager g, float anim, float time) {

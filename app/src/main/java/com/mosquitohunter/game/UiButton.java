@@ -9,9 +9,9 @@ import android.graphics.Shader;
 /** Rounded gradient button with a press animation. Actions are dispatched by id in GameView. */
 public class UiButton {
 
-    private static final Paint FILL = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint STROKE = new Paint(Paint.ANTI_ALIAS);
-    private static final Paint TEXT = new Paint(Paint.ANTI_ALIAS);
+    private static final Paint FILL = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint STROKE = new Paint(Paint.ANTI_ALIAS_FLAG);
+    private static final Paint TEXT = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     public final String id;
     public final RectF rect = new RectF();

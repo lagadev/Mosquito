@@ -348,7 +348,7 @@ public class GameView extends SurfaceView implements SurfaceHolder.Callback {
         }
     }
 
-    void draw(Canvas c) {
+    void renderFrame(Canvas c) {
         c.drawColor(Ui.C_NAVY);
         switch (screen) {
             case MENU:
